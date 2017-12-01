@@ -10,7 +10,7 @@ public class PickUp : MonoBehaviour {
 		
 	}
     void OnMouseDown(){
-        //GetComponent<Rigidbody>().useGravity = false;
+        GetComponent<Rigidbody>().useGravity = false;
         this.transform.position = onhand.position;
         this.transform.parent = GameObject.Find("FPS").transform;
         this.transform.parent = GameObject.Find("FirstPersonCharacter").transform;
@@ -18,6 +18,6 @@ public class PickUp : MonoBehaviour {
 
     void OnMouseUp(){
         this.transform.parent = null;
-        //GetComponent<Rigidbody>().useGravity = true;
+        GetComponent<Rigidbody>().useGravity = true;
     }
 }

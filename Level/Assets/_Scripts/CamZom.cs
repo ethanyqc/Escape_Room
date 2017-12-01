@@ -12,7 +12,7 @@ public class CamZom : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             isZoomed = !isZoomed;
         }

@@ -34,14 +34,14 @@ public class Safe : MonoBehaviour {
             beep.Play();
             input = input + "1";
             button1.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de1());
+            StartCoroutine(co1());
         }
         if (Input.GetKeyDown("2"))
         {
             beep.Play();
             input = input + "2";
             button2.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de2());
+            StartCoroutine(co2());
         }
 
         if (Input.GetKeyDown("3"))
@@ -49,7 +49,7 @@ public class Safe : MonoBehaviour {
             beep.Play();
             input = input + "3";
             button3.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de3());
+            StartCoroutine(co3());
         }
         if (Input.GetKeyDown("4"))
         {
@@ -57,49 +57,49 @@ public class Safe : MonoBehaviour {
             input = input + "4";
             //GetComponent.<AudioSource>().PlayOneShot(myClip);
             button4.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de4());
+            StartCoroutine(co4());
         }
         if (Input.GetKeyDown("5"))
         {
             beep.Play();
             input = input + "5";
             button5.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de5());
+            StartCoroutine(co5());
         }
         if (Input.GetKeyDown("6"))
         {
             beep.Play();
             input = input + "6";
             button6.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de6());
+            StartCoroutine(co6());
         }
         if (Input.GetKeyDown("7"))
         {
             beep.Play();
             input = input + "7";
             button7.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de7());
+            StartCoroutine(co7());
         }
         if (Input.GetKeyDown("8"))
         {
             beep.Play();
             input = input + "8";
             button8.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de8());
+            StartCoroutine(co8());
         }
         if (Input.GetKeyDown("9"))
         {
             beep.Play();
             input = input + "9";
             button9.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de9());
+            StartCoroutine(co9());
         }
         if (Input.GetKeyDown("0"))
         {
             beep.Play();
             input = input + "0";
             button0.GetComponent<Renderer>().material.color = Color.red;
-            StartCoroutine(de0());
+            StartCoroutine(co0());
         }
 
     }
@@ -122,43 +122,43 @@ void  FixedUpdate (){
  }
 
 
-    IEnumerator de1 (){
+    IEnumerator co1 (){
 yield return new WaitForSeconds(0.1f);
 button1.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de2 (){
+    IEnumerator  co2 (){
 yield return new WaitForSeconds(0.1f);
 button2.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de3 (){
+    IEnumerator  co3 (){
 yield return new WaitForSeconds(0.1f);
 button3.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de4 (){
+    IEnumerator  co4 (){
 yield return new WaitForSeconds(0.1f);
 button4.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de5 (){
+    IEnumerator  co5 (){
 yield return new WaitForSeconds(0.1f);
 button5.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de6 (){
+    IEnumerator  co6 (){
 yield return new WaitForSeconds(0.1f);
 button6.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de7 (){
+    IEnumerator  co7 (){
 yield return new WaitForSeconds(0.1f);
 button7.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de8 (){
+    IEnumerator  co8 (){
 yield return new WaitForSeconds(0.1f);
 button8.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de9 (){
+    IEnumerator  co9 (){
 yield return new WaitForSeconds(0.1f);
 button9.GetComponent<Renderer>().material.color = Color.white;
 }
-    IEnumerator  de0 (){
+    IEnumerator  co0 (){
 yield return new WaitForSeconds(0.1f);
 button0.GetComponent<Renderer>().material.color = Color.white;
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button : MonoBehaviour {
+public class ButtonEthan : MonoBehaviour {
 
     public RayCastEthan shot;
     private Animator animator;

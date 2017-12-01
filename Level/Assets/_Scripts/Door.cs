@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour {
 
-    public Button button;
+    public ButtonEthan button;
     private Animator animator;
     public bool open;
 	// Use this for initialization
